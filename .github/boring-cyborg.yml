@@ -35,7 +35,7 @@ firstIssueWelcomeComment: >
 # Check if the branch is up to date with master when certain files are modified
 checkUpToDate:
   # The default branch is "master", change the branch if you want to check against a different target branch  
-  targetBranch: master
+  targetBranch: main
   files:
   # File paths that you want to check for
   # In this example, it checks if the branch is up to date when alembic migrations are modified in the PR.
